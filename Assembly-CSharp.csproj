@@ -45,21 +45,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Main\Weapons.cs" />
-     <Compile Include="Assets\Scripts\Main\scr_3Dfloor.cs" />
-     <Compile Include="Assets\Scripts\Main\scr_3dgen.cs" />
-     <Compile Include="Assets\Scripts\Main\scr_UserInterface.cs" />
-     <Compile Include="Assets\Scripts\Main\scr_camera.cs" />
-     <Compile Include="Assets\Scripts\Main\scr_chest.cs" />
-     <Compile Include="Assets\Scripts\Main\scr_followme.cs" />
-     <Compile Include="Assets\Scripts\Main\scr_game.cs" />
-     <Compile Include="Assets\Scripts\Main\scr_player.cs" />
-     <Compile Include="Assets\Scripts\scr_OtherFloor.cs" />
-     <Compile Include="Assets\Scripts\scr_OtherGen.cs" />
-     <Compile Include="Assets\Scripts\scr_floor.cs" />
-     <Compile Include="Assets\Scripts\scr_gen.cs" />
-     <Compile Include="Assets\Scripts\scr_miner.cs" />
-     <Compile Include="Assets\Scripts\scr_roomcreator.cs" />
+     <Compile Include="Assets\Scripts\Weapons.cs" />
+     <Compile Include="Assets\Scripts\scr_UserInterface.cs" />
+     <Compile Include="Assets\Scripts\scr_camera.cs" />
+     <Compile Include="Assets\Scripts\scr_chest.cs" />
+     <Compile Include="Assets\Scripts\scr_connector.cs" />
+     <Compile Include="Assets\Scripts\scr_followme.cs" />
+     <Compile Include="Assets\Scripts\scr_game.cs" />
+     <Compile Include="Assets\Scripts\scr_generator.cs" />
+     <Compile Include="Assets\Scripts\scr_player.cs" />
+     <Compile Include="Assets\Scripts\scr_rooms.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
