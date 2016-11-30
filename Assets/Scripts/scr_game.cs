@@ -8,11 +8,14 @@ public class scr_game : MonoBehaviour {
 	public string turn = "players";
 	public float GameTimer = 100;
 
+	public Texture2D cursorImage;
 
 
 	// Use this for initialization
 	void Start () {
-	
+
+
+        Cursor.SetCursor(cursorImage,Vector2.zero,CursorMode.Auto);
 	}
 	
 	// Update is called once per frame
@@ -20,6 +23,7 @@ public class scr_game : MonoBehaviour {
 
 		if (Input.GetKeyDown (KeyCode.R)) {
 			Application.LoadLevel (0);
+            
 		}
 
 

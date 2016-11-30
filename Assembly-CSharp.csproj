@@ -45,14 +45,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\User Interface\scr_ingameUI.cs" />
+     <Compile Include="Assets\Scripts\User Interface\scr_inventoryList.cs" />
      <Compile Include="Assets\Scripts\Weapons.cs" />
-     <Compile Include="Assets\Scripts\scr_UserInterface.cs" />
      <Compile Include="Assets\Scripts\scr_camera.cs" />
      <Compile Include="Assets\Scripts\scr_chest.cs" />
      <Compile Include="Assets\Scripts\scr_connector.cs" />
+     <Compile Include="Assets\Scripts\scr_floor.cs" />
      <Compile Include="Assets\Scripts\scr_followme.cs" />
      <Compile Include="Assets\Scripts\scr_game.cs" />
      <Compile Include="Assets\Scripts\scr_generator.cs" />
+     <Compile Include="Assets\Scripts\scr_objectInformation.cs" />
      <Compile Include="Assets\Scripts\scr_player.cs" />
      <Compile Include="Assets\Scripts\scr_rooms.cs" />
  <Reference Include="UnityEngine.UI">

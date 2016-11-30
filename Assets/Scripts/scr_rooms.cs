@@ -5,6 +5,9 @@ public class scr_rooms : MonoBehaviour {
 
 	private int GridSize = 1;
 	public GameObject chest;
+	public GameObject chest2;
+	public GameObject chest3;
+
 
 
 
@@ -17,7 +20,10 @@ public class scr_rooms : MonoBehaviour {
 
 		if (randomChestNum <= 2) {
 			Instantiate (chest, new Vector3 (transform.position.x, transform.position.y+0.75f, transform.position.z), Quaternion.identity);
+			Instantiate (chest2, new Vector3 (transform.position.x, transform.position.y+0.75f, transform.position.z-2), Quaternion.identity);
+			Instantiate (chest3, new Vector3 (transform.position.x, transform.position.y+0.75f, transform.position.z-4), Quaternion.identity);
 		}
+
 
 
 	}
