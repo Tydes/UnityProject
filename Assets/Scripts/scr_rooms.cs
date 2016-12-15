@@ -19,9 +19,9 @@ public class scr_rooms : MonoBehaviour {
 		int randomChestNum = Random.Range (0, 10);
 
 		if (randomChestNum <= 2) {
-			Instantiate (chest, new Vector3 (transform.position.x, transform.position.y+0.75f, transform.position.z), Quaternion.identity);
-			Instantiate (chest2, new Vector3 (transform.position.x, transform.position.y+0.75f, transform.position.z-2), Quaternion.identity);
-			Instantiate (chest3, new Vector3 (transform.position.x, transform.position.y+0.75f, transform.position.z-4), Quaternion.identity);
+			Instantiate (chest, new Vector3 (transform.position.x, transform.position.y+1, transform.position.z), Quaternion.identity);
+			Instantiate (chest2, new Vector3 (transform.position.x, transform.position.y+1, transform.position.z-2), Quaternion.identity);
+			Instantiate (chest3, new Vector3 (transform.position.x, transform.position.y+1, transform.position.z-4), Quaternion.identity);
 		}
 
 
